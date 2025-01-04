@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* background: linear-gradient(to right, #1c92d2, #72daee); */
+  background-color: green;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif; /* Modern font */
+  min-height: 100vh;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.home-title {
+  font-size: 3.5em;
+  color: #ffffff;
+  font-weight: 600;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Subtle shadow for text */
+}
+
+.home-welcome {
+  font-size: 1.3em;
+  margin-top: 10px;
+  color: #e0e0e0;
+}
+
+.home-main {
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+  background-color: lightgreen; 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  border-radius: 12px;
+  color: #2c3e50; /* Dark text */
+}
+
+.home-about, .home-features, .home-call-to-action {
+  margin-bottom: 30px;
+}
+
+.home-about h3, .home-features h3 {
+  font-size: 2em;
+  color: #3498db; /* Vibrant Blue */
+  margin-bottom: 15px;
+}
+
+.home-about p, .home-features ul {
+  font-size: 1.1em;
+  color: #7f8c8d; /* Muted text color */
+  line-height: 1.6;
+}
+
+.home-features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.home-features ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #bdc3c7;
+  transition: color 0.3s ease;
+}
+
+.home-features ul li:hover {
+  color: #3498db; /* Change color on hover */
+}
+
+.home-call-to-action .cta-button {
+  padding: 12px 25px;
+  background: linear-gradient(90deg, #f39c12 0%, #e74c3c 100%);
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-call-to-action .cta-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.home-footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #bdc3c7;
+}
