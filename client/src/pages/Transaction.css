@@ -1,0 +1,95 @@
+.transaction-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 1400px;
+    justify-content: space-between;
+  }
+  
+  .card {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(48% - 1rem);
+    display: flex;
+    flex-direction: column;
+  }
+  .transaction-form {
+   align-items: center;
+    /* margin-bottom: 1rem; */
+  }
+  .transaction-form .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .transaction-form label {
+    width: 150px;
+    font-weight: bold;
+    margin-right: 1rem;
+  }
+  
+  .transaction-form input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .send-button {
+    background: linear-gradient(45deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 170px;
+    /* align-items: center; */
+  }
+  
+  .send-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+  }
+  
+  .transaction-history th, .transaction-history td {
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+  }
+  
+  .transaction-graph {
+    flex: 1 1 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .transaction-container {
+      flex-direction: column;
+    }
+  
+    .card {
+      flex: 1 1 100%;
+    }
+  }
+
+.user-info {
+    display: flex;
+    /* align-items: center; */
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .user-info h3 {
+    margin: 0;
+  }

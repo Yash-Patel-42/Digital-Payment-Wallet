@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .signup-card {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 500px; /* Increased width */
+    padding: 40px; /* Increased padding */
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .signup-header {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin */
+  }
+  
+  .signup-header h2 {
+    font-size: 28px; /* Larger font size */
+    color: #333;
+    margin: 0;
+  }
+  
+  .signup-header p {
+    color: #777;
+    font-size: 16px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* Increased gap */
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-size: 16px; /* Larger label text */
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input {
+    padding: 12px;
+    font-size: 16px; /* Larger input text */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-color: #764ba2;
+    box-shadow: 0 0 5px rgba(118, 75, 162, 0.3);
+  }
+  
+  .error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  
+  .btn-submit {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    padding: 12px; /* Larger button padding */
+    font-size: 18px; /* Larger button text */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn-submit:hover {
+    background: linear-gradient(135deg, #764ba2, #667eea);
+  }
+  
+  .signup-footer {
+    color: #333;
+    text-align: center;
+    margin-top: 30px; /* Increased margin */
+  }
+  
+  .login-link {
+    color: #764ba2;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
